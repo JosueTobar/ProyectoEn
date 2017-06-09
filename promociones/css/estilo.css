@@ -1,0 +1,119 @@
+
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.font1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div.general1{
+	margin: auto;
+	width: 960px;
+	height: 400px;
+	background-color: #434343;
+}
+
+div.general2{
+	margin: auto;
+	width: 960px;
+	height: 1100px;
+	background-color:#d8d8d8;
+}
+
+div.general3{
+	margin: auto;
+	width: 960px;
+	height: 100px;
+	background-color:#434343;
+}
+
+div.general4{
+	margin: auto;
+	width: 960px;
+	height: 900px;
+	background-color:#d8d8d8;
+}
+
+div.general5{
+	margin: auto;
+	width: 960px;
+	height: 100px;
+	background-color:#434343;
+}
+
+
+
+nav{
+	background: #434343;
+	height: 60px;
+	text-decoration: none;
+}
+
+nav h2{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+.nav li a {
+	width: 162px;
+	background-color: #d8d8d8;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 11px;
+	display: block;
+
+}
+
+.nav li a:hover {
+	background-color: #434343;
+	text-decoration: none;
+}
+
+
+.nav > li {
+	text-decoration: none;
+	float: left;
+}
+
+.nav li ul{
+	text-decoration: none;
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+
+}
+
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+ul, li {
+	list-style: none;
+}
+
+
+#img1{
+	width: 300px;
+	height: auto;
+}
+
+
+
